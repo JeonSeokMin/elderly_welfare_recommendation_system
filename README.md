@@ -14,30 +14,32 @@
 
 ## 🔧 구성
 
-elderly_welfare_recommendation_system/
-│
-├── chat/ # LLM + Gradio 기반 챗봇 인터페이스
-│ ├── app.py # 메인 챗봇 실행 파일
-│ └── faiss_store/ # 벡터스토어 캐시 디렉토리 (자동 생성됨)
-│
-├── data/ # 데이터 수집 및 전처리 노트북 및 결과 파일
-│ ├── prepare_welfare_data.ipynb
-│ ├── processing_welfare_data.ipynb
-│ ├── welfare_dataframe.csv # 최종 CSV 데이터
-│ └── welfare_data.txt # 원본 XML 데이터
-│
-├── model/ # 모델 성능 비교 및 RAG 구성
-│ ├── llm_evaluation/
-│ │ ├── exaone_example.txt
-│ │ ├── llama3_example.txt
-│ │ ├── evaluation_result.txt
-│ │ └── llm_as_a_judge.ipynb
-│ └── rag_process.ipynb
-│
-├── .env # 실제 실행용 환경 변수 (비공개)
-├── .env_sample # .env 예시 템플릿
-├── requirements.txt # 의존성 패키지 목록
-└── README.md # 프로젝트 설명 파일
+📦elderly_welfare_recommendation_system
+ ┣ 📂chat
+ ┃ ┣ 📂faiss_store
+ ┃ ┃ ┣ 📜index.faiss
+ ┃ ┃ ┗ 📜index.pkl
+ ┃ ┗ 📜app.py
+ ┣ 📂data
+ ┃ ┣ 📜.DS_Store
+ ┃ ┣ 📜prepare_welfare_data.ipynb
+ ┃ ┣ 📜processing_welfare_data.ipynb
+ ┃ ┣ 📜welfare_data.txt
+ ┃ ┗ 📜welfare_dataframe.csv
+ ┣ 📂model
+ ┃ ┣ 📂llm_evaluation
+ ┃ ┃ ┣ 📜Llama3_example.txt
+ ┃ ┃ ┣ 📜eeve_example.txt
+ ┃ ┃ ┣ 📜evaluation_result.txt
+ ┃ ┃ ┣ 📜exaone_example.txt
+ ┃ ┃ ┗ 📜llm_as_a_judge.ipynb
+ ┃ ┗ 📜rag_process.ipynb
+ ┣ 📜.DS_Store
+ ┣ 📜.env
+ ┣ 📜.env_sample
+ ┣ 📜.gitignore
+ ┣ 📜README.md
+ ┗ 📜requirements.txt
 
 ---
 
