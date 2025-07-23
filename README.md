@@ -14,32 +14,32 @@
 
 ## 🔧 구성
 
-📦elderly_welfare_recommendation_system
- ┣ 📂chat
- ┃ ┣ 📂faiss_store
- ┃ ┃ ┣ 📜index.faiss
- ┃ ┃ ┗ 📜index.pkl
- ┃ ┗ 📜app.py
- ┣ 📂data
- ┃ ┣ 📜.DS_Store
- ┃ ┣ 📜prepare_welfare_data.ipynb
- ┃ ┣ 📜processing_welfare_data.ipynb
- ┃ ┣ 📜welfare_data.txt
- ┃ ┗ 📜welfare_dataframe.csv
- ┣ 📂model
- ┃ ┣ 📂llm_evaluation
- ┃ ┃ ┣ 📜Llama3_example.txt
- ┃ ┃ ┣ 📜eeve_example.txt
- ┃ ┃ ┣ 📜evaluation_result.txt
- ┃ ┃ ┣ 📜exaone_example.txt
- ┃ ┃ ┗ 📜llm_as_a_judge.ipynb
- ┃ ┗ 📜rag_process.ipynb
- ┣ 📜.DS_Store
- ┣ 📜.env
- ┣ 📜.env_sample
- ┣ 📜.gitignore
- ┣ 📜README.md
- ┗ 📜requirements.txt
+📦 elderly_welfare_recommendation_system
+├── 📂 chat
+│   ├── 📂 faiss_store
+│   │   ├── 📜 index.faiss
+│   │   └── 📜 index.pkl
+│   └── 📜 app.py
+├── 📂 data
+│   ├── 📜 .DS_Store
+│   ├── 📜 prepare_welfare_data.ipynb
+│   ├── 📜 processing_welfare_data.ipynb
+│   ├── 📜 welfare_data.txt
+│   └── 📜 welfare_dataframe.csv
+├── 📂 model
+│   ├── 📂 llm_evaluation
+│   │   ├── 📜 Llama3_example.txt
+│   │   ├── 📜 eeve_example.txt
+│   │   ├── 📜 evaluation_result.txt
+│   │   ├── 📜 exaone_example.txt
+│   │   └── 📜 llm_as_a_judge.ipynb
+│   └── 📜 rag_process.ipynb
+├── 📜 .DS_Store
+├── 📜 .env
+├── 📜 .env_sample
+├── 📜 .gitignore
+├── 📜 README.md
+└── 📜 requirements.txt
 
 ---
 
