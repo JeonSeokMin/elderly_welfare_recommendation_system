@@ -1,0 +1,10 @@
+# 환경변수
+.env
+
+# 데이터 캐시 / 중간 결과
+chat/faiss_store/
+data/welfare_dataframe.csv
+data/welfare_data.txt
+
+# .DS_store
+.DS_store
